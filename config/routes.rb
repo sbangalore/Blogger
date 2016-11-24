@@ -4,7 +4,9 @@ Rails.application.routes.draw do
     end
     root to: 'articles#index'
     resources :tags
-  # The priority is based upon order of creation: first created -> highest priority.
+end
+
+  # The priority is based upon ord of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
@@ -58,4 +60,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
